@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbaar_1 {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px;
+}
+.navbaar_1 i{
+    color:gold;
+}
+.navbaar_2 {
+    background-color: black;
+}
+.navbaar_2 > div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:auto;
+    margin:auto;
+    padding:20px;
+}
+.navbaar_2 button {
+    padding:10px
+}
+.navbaar_2 li {
+    list-style: none;
+}
+.navbaar_2 li a {
+    list-style: none;
+    color: white;
+}
+.navbaar_2 li:nth-child(1) a {
+    list-style: none;
+    color: gold;
+}
+
+
+.banner img {
+    width:100%;
+
+}
+.about_us{
+    display:flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    width:80%;
+}
+.about_us_1 h3 {
+ color:gold;
+ padding-bottom: 10px;
+ font-size:15px;
+}
+.about_us_1 h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.about_us_1 p {
+    justify-content: space-evenly;
+    padding: 25px 0;
+    color:#a09d98;
+    font-size:15px;
+}
+.about_us_image {
+    align-items: right;
+}
+
+.offers {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width:80%;
+    gap:30px;
+    margin: 70px auto;
+}
+.offer{
+    margin: 10px auto;
+}
+.offer p {
+    color:#a09d98;
+    font-size:15px;
+}
+
+.a {
+    display:flex;
+    color:gold;
+    width: 80%;
+    margin: 50px auto;
+    align-items:center;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bold;
+}
+.b {
+    display:flex;
+    width: 80%;
+    margin: 50px auto;
+    align-items:center;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hotel-images {
+    display:flex;
+    justify-content: space-around;
+}
+
+.explore {
+    display:flex;
+    width: 80%;
+    margin: 50px auto;
+    align-items:center;
+    justify-content: space-around;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.explore button {
+    background-color: #c7901a;
+    color:white;
+    padding: 10px 10px;
+    border:none;
+}
